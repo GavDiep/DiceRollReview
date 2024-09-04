@@ -1,0 +1,76 @@
+html {
+  background-color: purple;
+  background: url(images/SphealPurp.png) no-repeat fixed center;
+  background-size: cover;
+}
+
+body {
+  background-color: #6260d2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 500px;
+  padding: 30px 75px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+#dicebox,
+#historybox {
+  border: 2px solid purple;
+  margin: 50px;
+  width: 400px;
+  padding: 25px;
+}
+
+#dicebox {
+  background-color: black;
+}
+
+img {
+  transform: rotate(0);
+  margin: auto;
+  width: 175px;
+  margin: 10px;
+  scale: 1;
+}
+
+button {
+  background-color: purple;
+  border: 1px solid purple;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  font-size: 17.5px;
+  font-weight: bold;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background: white;
+  color: purple;
+}
+
+span {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+}
+
+select {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#img-selector {
+  text-align: center;
+  margin: auto;
+}

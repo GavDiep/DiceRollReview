@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Dice sim</title>
+  </head>
+  <body>
+    <h1 class="center">9 Sided Dice Simulator</h1>
+
+    <hr />
+
+    <h2 class="center">Choose a simulation option</h2>
+
+    <select name="dice-options" id="diceMenu">
+      <option value="roll1">Roll Dice Once</option>
+      <option value="roll5">Roll Dice 5 Times</option>
+      <option value="rollX">Roll Dice X Times</option>
+      <option value="rollSnake">Roll Dice Until Snake Eyes</option>
+    </select>
+
+    <p class="center">
+      <button id="rollBtn">ROLL</button>
+      <button id="resetBtn">RESET</button>
+    </p>
+
+    <div id="dicebox">
+      <img src="images/spheal0.png" alt="0dice" id="dice1" width="150px" />
+      <img src="images/spheal0.png" alt="0dice" id="dice2" width="150px" />
+    </div>
+
+    <div id="historybox">
+      <h3 class="center">Dice Rolls</h3>
+      <p id="history"></p>
+    </div>
+
+    </div>
+
+
+    
+  </body>
+</html>
